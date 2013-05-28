@@ -1,0 +1,49 @@
+[ 2013-05-28T15:34:35+08:00 ] 0.0.0.0 /base_on_thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007181s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000386s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000358s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000237s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2013-05-28T15:42:52+08:00 ] 0.0.0.0 /base_on_thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008550s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.011597s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.016658s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-05-28T15:54:33+08:00 ] 0.0.0.0 /base_on_thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.021855s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.000179s ]
+
+[ 2013-05-28T16:19:31+08:00 ] 0.0.0.0 /base_on_thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.050727s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.000230s ]
+
+[ 2013-05-28T16:21:22+08:00 ] 0.0.0.0 /base_on_thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.001321s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.000225s ]
+
